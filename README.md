@@ -1,20 +1,47 @@
-# Merge data in Excel with Power Query
-
-## Background on Excel
-
-Excel is used a lot for small to medium data exchange and manipulation tasks. While there are more robust or specialized tools available for many specific tasks, Excel is a tool which gets used because it's widely available and generally adaptable to many situations or purposes. This flexibility has benefits and drawbacks. While Excel can be used for a quick list or some data manipulation, failure to follow good data structuring and management principles in Excel can lead to data which are unweildy, difficult to maintain, and difficult to analyze. This exercise demonstrates how to merge data from several sheets using a stored Power Query to create data sets which are quickly updateable.
+# Python Generate Error Report from Text Files Tutorial
 
 ## Summary of steps to complete
 
-- [ ] Create the merged Excel dataset by following along with the tutorial and adapting the steps to the included data file. 
-- [ ] Turn in your completed Excel workbook.
+- [ ] Fork this repository so you have your own copy to work on.
+- [ ] Clone the repository on your local machine. 
+- [ ] Create a Jupyter Notebook in your repository.
+- [ ] Watch the tutorial and execute commands.
+- [ ] Push your new files to your GitHub repository.
+- [ ] Submit a link to this GitHub repository in Canvas.
 
-## Create the Excel dataset by following along with the tutorial
+## Fork & Clone this repository
 
-* Use Power Query to marge data tables (9 min): https://www.youtube.com/watch?v=dse9h2W4ejw&list=PLG9A6ovzPqX4uTMILULzW_MASdnH8j_1z&index=10
-* I was able to find the original data file used in the tutorial. It is included in this repository and is called Region wise Sales Data.xlsx.
-* I originally included a different dataset with multiple sheets but it is not an exact match with the data used in the tutorial. If you want to challenge yourself, you could try the assignment with the fabricated data called MergePowerQueryData.xlsx.
+* We did this in a previous assignment. Instructions are here: https://github.com/cmcntsh/exerGitPractice
+* This can also be done directly in VSCode
+  * Create a new folder on your machine where you want to put this repository if you don't already have one you want to use.
+  * Copy the Clone or Download path for this repository from GitHub.
+  * In VSCode from the command pallette (Ctrl-Shift-P) run Git: Clone
+  * Paste the path into the path field which pops up
+  * Select your new folder you created on your machine
+  * A new folder for the repository with the repository files should be in the folder you selected showing in the Explorer window in VSCode on the left side.
 
-## Turn in your completed Excel dashboard
+## Create a .py file
 
-* Submit the file in Canvas.
+* In VSCode navigate to your repository folder. 
+  * File - Open Folder
+* Create a python script called error_report.py
+
+## Extract text files
+
+* Extract the files contained in the text_files.zip.
+* Move them to a folder called `original_files` inside the folder where you intend to complete this assignment.
+
+## Watch Tutorial
+
+* Follow along with Python tutorial: Python Script to Generate an Error Report from Text Files (38 min): https://youtu.be/Nvyd6eipXfQ
+* When you're done make sure you save your file.
+
+## Push your updated file to your GitHub repository
+
+* This can be done in VSCode.
+  * In VSCode click on the Source Control button.
+  * You should see the files that had changes. (Mine has the original file which shows an M next to it and a new file which says checkpoint in the name. You really only need to push the original file, but if you push both it shouldn't hurt anything.)
+  * Hover over the changed file. Click the + sign to stage the change.
+  * Enter a commit message in the message field and click the checkmark to commit the change.
+  * Click on the 3 dots for more actions and select Sync. This will push the updated file to your GitHub repository.
+  * Submit the link to your GitHub repository on Canvas.
